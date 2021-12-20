@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+body{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 25px;
+}
+
+input[type='submit']{
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    background-color: teal;
+    color:white;
+    padding:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
